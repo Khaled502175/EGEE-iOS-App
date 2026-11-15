@@ -1,0 +1,15 @@
+name: EGEE_App
+options:
+  bundleIdPrefix: com.khaledoelgamal
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  EGEE_App:
+    type: application
+    platform: iOS
+    sources: [EGEE_App]
+    settings:
+      base:
+        INFOPLIST_FILE: EGEE_App/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.khaledoelgamal.EGEEApp
+        GENERATE_INFOPLIST_FILE: NO
